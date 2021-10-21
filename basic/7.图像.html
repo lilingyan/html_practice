@@ -9,7 +9,22 @@
 <body>
 
     <h4>图像标签的使用:</h4>
-    <img src="imgs/中秋图片.jpeg" title="我是提示文本(鼠标放到图像上)"/>
+    <img 
+        src="imgs/中秋图片.jpeg" 
+        title="我是提示文本(鼠标放到图像上)"
+    />
+
+    <br>
+
+    <!-- 长宽单位是像素 
+            只填一个则是等比例缩放
+            border 边框一般通过css设置，不通过属性设置-->
+    <img 
+        src="imgs/中秋图片.jpeg" 
+        width="500"
+        height="100"
+        border='15'
+    />
 
     <h4>替换文本 图像显示失败时，展示文本:</h4>
     <img src="imgs/中秋图片1.jpeg" alt="失败替换文本"/>
