@@ -1,0 +1,11 @@
+div {
+    /* color: deeppink; */
+    /* color: #ff0000; */
+    color: rgb(255, 0, 0);
+    /* 文字对齐 */
+    text-align: center;
+    /* 文字装饰 */
+    text-decoration: underline;
+    /* 上间距 + 下间距 + 文本高度 */
+    line-height: 36px;
+}
