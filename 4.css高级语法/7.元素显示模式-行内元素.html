@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <!-- 文字类的元素不能放块级元素    p  h1等 -->
-
     <style>
 
-        div {
-            /* 默认100% */
-            width: 200px;
+        /* 行内元素长宽是无法设置的(设置了无效)
+        只能自适应内容大小 */
+
+        /* a 行内元素可以放块级元素 */
+
+        span {
+            width: 300px;
+            height: 300px;
             background-color: pink;
         }
 
     </style>
-    
+
 </head>
 <body>
 
-    <div>div自占一行</div>  我也写在第一行
+    <span>span</span> <strong>strong</strong>
     
 </body>
 </html>
