@@ -9,13 +9,17 @@
     <style>
 
         body {
-            background-image: url(http://pic1.win4000.com/wallpaper/2018-11-15/5bed090273cf6.jpg);
+            /* background-image: url(http://pic1.win4000.com/wallpaper/2018-11-15/5bed090273cf6.jpg);
             background-repeat: no-repeat;
 
 
             background-position: center top;
-            /* 是否跟随滚动，需要和定位一起使用 */
-            background-attachment: fixed ;
+            是否跟随滚动，需要和定位一起使用 
+            background-attachment: fixed ; */
+
+            /* 背景复合写法 */
+            /* 一次性写  没有固定位置要求，一般  :  颜色    图片    平铺    滚动   位置 */
+            background: url(http://pic1.win4000.com/wallpaper/2018-11-15/5bed090273cf6.jpg) no-repeat fixed center top;
         }
 
         div {
