@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        a {
+            width: 150px;
+            height: 100px;
+            background-color: pink;
+            /* 变成了块级元素才能使长宽生效 */
+            display: block;
+        }
+
+        #div1 {
+            background-color: green;
+        }
+
+        #div2 {
+            background-color: grey;
+        }
+
+        div {
+            width: 150px;
+            height: 100px;
+            /* 转换成了行内元素 长宽就无效了*/
+            display: inline;
+        }
+
+        span {
+            width: 150px;
+            height: 100px;
+            background-color: hotpink;
+            display: inline-block;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <a href="">
+        我被转换成块元素了
+    </a>
+
+    <div id="div1">我是div1</div>
+    <div id="div2">我是div2</div>
+    
+    <span>
+
+         span被转为行内块元素
+
+    </span>
+
+</body>
+</html>
