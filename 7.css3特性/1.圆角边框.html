@@ -8,13 +8,39 @@
 
     <style>
 
-        div {
+        .div1 {
             width: 200px;
             height: 200px;
             background-color: pink;
 
             /* 圆角半径 */
             border-radius: 100px;
+            /* 用百分比，方便做圆 */
+            border-radius: 50%;
+            text-align: center;
+        }
+
+        .div2 {
+            margin-top: 20px;
+            width: 200px;
+            height: 80px;
+            background-color: pink;
+
+            border-radius: 40px;
+            text-align: center;
+        }
+
+        .div3 {
+            margin-top: 20px;
+            width: 200px;
+            height: 80px;
+            background-color: pink;
+
+            /* 顺时针 */
+            border-radius: 10px 20px 30px 40px;
+            /* 每个角都可以独立指定 */
+            /* border-top-left-radius: 10px; */
+            text-align: center;
         }
 
     </style>
@@ -22,7 +48,9 @@
 </head>
 <body>
 
-    <div></div>
+    <div class="div1">圆形</div>
+    <div class="div2">圆角矩形</div>
+    <div class="div3">不同圆角</div>
     
 </body>
 </html>
