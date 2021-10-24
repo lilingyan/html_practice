@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        /* 清楚所有的元素内外边距 */
+        /* 一般写在网页元素第一个 */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        span {
+            background-color: pink;
+            margin-left: 20px;
+            /* 没生效 */
+            margin-top: 20px;
+            /* display: inline-block; */
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- 许多标签自带边距 -->
+
+    123
+
+    <ul>
+        <li>li</li>
+        <li>li</li>
+        <li>li</li>
+    </ul>
+
+    <span>尽量只设置左右的内外边距，不要设置上下</span>
+    
+</body>
+</html>
