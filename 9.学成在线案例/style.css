@@ -147,3 +147,16 @@ a {
     /* 浮动盒子不会有外边距合并问题 */
     margin-top: 50px;
 }
+
+.course h2{
+    height: 48px;
+    background-color: #9bceea;
+    text-align: center;
+    line-height: 48px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.bd {
+    padding: 0 20px;
+}
