@@ -129,3 +129,11 @@ a {
     font-size: 14px;
     color: #fff;
 }
+
+.subNav ul li a span{
+    float: right;
+}
+
+.subNav ul li a:hover {
+    color: #00a4ff;
+}
