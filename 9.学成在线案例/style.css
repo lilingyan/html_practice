@@ -8,6 +8,10 @@
     margin: auto;
 }
 
+li {
+    list-style: none;
+}
+
 .header {
      height: 42px;
      background-color: pink;
@@ -16,7 +20,15 @@
 }
 
 .logo {
+    float: left;
+
     width: 198px;
     height: 42px;
     background-color: purple;
+}
+
+.nav {
+    float: left;
+
+    margin-left: 60px;
 }
