@@ -200,17 +200,31 @@ a {
 
 .goods h3 {
     float: left;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #00a4ff;
 }
 
 .goods ul {
     float: left;
+    margin-left: 30px;
 }
 
 .goods ul li{
     float: left;
 }
 
+.goods ul li a{
+    padding: 0 30px;
+    font-size: 15px;
+    color: #050505;
+    border-left: 1px solid #ccc;
+}
+
 .mod {
     float: right;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #00a4ff;
 }
 /* 精品模块 */
