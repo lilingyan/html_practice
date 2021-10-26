@@ -112,3 +112,20 @@ a {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
+.subNav{
+    width: 190px;
+    height: 421px;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+.subNav ul li{
+    height: 45px;
+    line-height: 45px;
+    margin: 0px 20px;
+}
+
+.subNav ul li a {
+    font-size: 14px;
+    color: #fff;
+}
