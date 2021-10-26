@@ -67,6 +67,7 @@ a {
 }
 
 .search input {
+    float: left;
     width: 345px;
     height: 40px;
     border: 1px solid #00a4ff;
@@ -74,4 +75,16 @@ a {
     color: #bfbfbf;
     font-size: 14px;
     padding-left: 15px;
+}
+
+.search button {
+    /* 两个行内块会有间隙，需要都改成浮动 */
+    float: left;
+    width: 50px;
+    height: 42px;
+    /* 去掉默认边框 */
+    border: 0;
+    background-image: url(imgs/search.jpeg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
 }
