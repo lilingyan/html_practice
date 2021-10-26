@@ -192,8 +192,25 @@ a {
 /* 精品模块 */
 .goods {
     height: 60px;
+    line-height: 60px;
     background-color: #fff;
     margin-top: 10px;
     box-shadow: 0 2px 3px 3px rgb(0, 0, 0, 0.1);
+}
+
+.goods h3 {
+    float: left;
+}
+
+.goods ul {
+    float: left;
+}
+
+.goods ul li{
+    float: left;
+}
+
+.mod {
+    float: right;
 }
 /* 精品模块 */
