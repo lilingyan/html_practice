@@ -21,6 +21,17 @@ a {
     text-decoration: none;
 }
 
+.clearfix:before,.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom:1;
+}
+
 /* 导航栏 */
 .header {
      height: 42px;
@@ -233,6 +244,7 @@ a {
 /* box核心内容区域 */
 .box {
     margin-top: 30px;
+
 }
 
 .box-hd {
@@ -289,3 +301,10 @@ a {
     color: #ff7c2d;
 }
 /* box核心内容区域 */
+
+/* footer */
+.footer {
+    height: 415px;
+    background-color: pink;
+}
+/* footer */
