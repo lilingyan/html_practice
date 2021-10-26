@@ -56,3 +56,22 @@ a {
     border-bottom: 2px solid #00a4ff;
     color: #00a4ff;
 }
+
+.search {
+    float: left;
+
+    width: 412px;
+    height: 42px;
+    background-color: skyblue;
+    margin-left: 50px;
+}
+
+.search input {
+    width: 345px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    border-right: none;
+    color: #bfbfbf;
+    font-size: 14px;
+    padding-left: 15px;
+}
