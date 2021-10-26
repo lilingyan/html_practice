@@ -14,3 +14,9 @@
      /* 层叠w的 */
      margin: 30px auto;
 }
+
+.logo {
+    width: 198px;
+    height: 42px;
+    background-color: purple;
+}
