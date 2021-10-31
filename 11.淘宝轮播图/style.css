@@ -17,10 +17,10 @@
     height: 280px;
 }
 
-.prev {
+.prev , .next{
     position: absolute;
     top: 50%;
-    left: 0;
+    /* left: 0; */
 
     margin-top: -15px;
 
@@ -32,7 +32,21 @@
     line-height: 30px;
     color: #fff;
     text-decoration: none;
+}
+
+.prev {
+    left: 0;
 
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+.next {
+    /* 既有左右，又有上下
+    则先左再右(即显示在左)
+    同理，先显示上 */
+    right: 0;
+
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
