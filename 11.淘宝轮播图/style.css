@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+li {
+    list-style: none;
+}
+
 .tb-promo {
     position: relative;
 
@@ -60,4 +64,18 @@
     height: 13px;
     background-color: rgb(255, 255, 255 , 0.3);
     border-radius: 7px;
+}
+
+.prompo-nav li{
+    float: left;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 3px;
+}
+
+/* 权重问题 */
+.prompo-nav .selected {
+    background-color: #ff5500;
 }
