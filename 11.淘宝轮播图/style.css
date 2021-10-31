@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tb-promo {
+    width: 520px;
+    height: 280px;
+    background-color: pink;
+    margin: 100px auto;
+}
+
+.tb-promo img{
+    width: 520px;
+    height: 280px;
+}
