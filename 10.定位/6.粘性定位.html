@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body {
+            height: 2000px;
+        }
+
+        .nav {
+
+            /* 到指定位置后，就固定了
+            上下左右方位必须设置一个，
+            不然就是相对定位效果 
+            并且默认占用标准流位置*/
+            position: sticky;
+            top: 0;
+
+            width: 800px;
+            height: 50px;
+            background-color: pink;
+            margin: 100px auto;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="nav">我是导航栏</div>
+    
+</body>
+</html>
