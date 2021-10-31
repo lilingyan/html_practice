@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .yeye {
+            position: relative;
+            width: 800px;
+            height: 800px;
+            background-color: pink;
+        }
+
+        .father {
+            /* position: relative;
+            left: 40px;
+            top: 40px; */
+
+            width: 500px;
+            height: 500px;
+            background-color: skyblue;
+        }
+
+        .son {
+
+            /* 如果外层没有盒子，则以整个页面位置做定位 */
+            /* 如果父级盒子没有定位，则递归至父父级，直到整个页面 */
+            position: absolute;
+            /* top: 20px;
+            left: 20px; */
+            /* right: 100px; */
+
+            bottom: 30px;
+
+            width: 200px;
+            height: 200px;
+            background-color: purple;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="yeye">
+
+        <div class="father">
+
+            <div class="son">
+    
+            </div>
+    
+        </div>
+
+    </div>
+
+    
+    
+</body>
+</html>
