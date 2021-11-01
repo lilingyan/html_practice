@@ -13,11 +13,18 @@
         img {
             /* 上下左右和(默认)基线(英文中的) */
             /* 只有行内或行内块有效 */
-            vertical-align: top;
+            /* vertical-align: top; */
         }
 
         textarea {
             vertical-align: middle;
+        }
+
+
+        div {
+            /* 可以随便加个对齐，只要不是基线对齐，下面就没有缝隙 */
+            /* 或者改成块级元素 */
+            border: 1px solid pink;
         }
 
     </style>
@@ -25,10 +32,14 @@
 </head>
 <body>
 
-    <img src="imgs/tb.jpeg" alt=""> <span style="vertical-align: bottom;">我是需要对齐的问题jjjjJJJJ</span>
-    <br>
+    <div>
 
-    <textarea name="" id="" cols="30" rows="10"></textarea>  请你liuyan
+        <img src="imgs/tb.jpeg" alt=""> <span>我是需要对齐的问题jjjjJJJJ</span>
+    <!-- <br> -->
+
+    <!-- <textarea name="" id="" cols="30" rows="10"></textarea>  请你liuyan -->
+
+    </div>
     
 </body>
 </html>
