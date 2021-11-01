@@ -31,6 +31,29 @@
             margin: 100px auto;
         }
 
+        .jd {
+            position: relative;
+            width: 120px;
+            height: 249px;
+            background-color: pink;
+        }
+
+        .jd span {
+            position: absolute;
+            right: 15px;
+            /* 需要整个盒子的高度 */
+            top: -10px;
+            width: 0;
+            height: 0;
+
+            line-height: 0;
+            font-size: 0;
+
+
+            border: 5px solid transparent;
+            border-bottom-color: pink;
+        }
+
     </style>
 
 </head>
@@ -39,6 +62,10 @@
 
     <div class="box1"></div>
     <div class="box2"></div>
+
+    <div class="jd">
+        <span></span>
+    </div>
     
 </body>
 </html>
