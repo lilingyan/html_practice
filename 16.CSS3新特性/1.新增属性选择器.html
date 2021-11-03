@@ -17,6 +17,27 @@
             border-radius: 15px;
         }
 
+        /* icon开头的 */
+        /* 属性选择器权重是10  div权重是1  所以是11 */
+        div[class^=icon] {
+            color: pink;
+        }
+
+        /* 类选择器是10 所以不生效*/
+        .icon1 {
+            color:springgreen;
+        }
+
+        /* data结尾 */
+        div[class$=data] {
+            color: red;
+        }
+
+        /* 任意包含 */
+        div[class*=val] {
+            color: skyblue;
+        }
+
     </style>
 
 </head>
@@ -33,7 +54,23 @@
     <br>
     <input type="password" name="" id="">
     <br>
-    
+
+    <!-- 属性选择器可以选择属性值开头的某些元素 -->
+    <div class="icon1">开始小图标1</div>
+    <div class="icon2">开始小图标2</div>
+    <div class="icon3">开始小图标3</div>
+    <div class="icon4">开始小图标4</div>
+    <div class="">我是打酱油的</div>
+
+     <!-- 属性选择器可以选择属性值结尾的某些元素 -->
+    <div class="i-data">结尾小图标1</div>
+    <div class="i-data">结尾小图标2</div>
+    <div class="i">结尾小图标3</div>
+
+     <!-- 属性选择器可以选择属性值包含的某些元素 -->
+     <div class="i-val-d">任意小图标1</div>
+    <div class="i-val-d">任意小图标2</div>
+    <div class="i">任意小图标3</div>
     
 </body>
 </html>
