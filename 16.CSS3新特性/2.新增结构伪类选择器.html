@@ -10,17 +10,32 @@
 
         /* 选ul第一个li */
         /* 注意ul后面的空格 */
-        ul li:first-child {
+        ul[class=c] li:first-child {
             background-color: pink;
         }
 
-        ul li:last-child {
+        ul[class=c] li:last-child {
             background-color: skyblue;
         }
 
         /* 选择特定位置的子元素 */
-        ul li:nth-child(5) {
+        ul[class=c] li:nth-child(5) {
             background-color: purple;
+        }
+
+        /* 偶数 */
+        ul[class=cc] li:nth-child(even){
+            background-color: purple;
+        }
+
+        /* 奇数 */
+        ul[class=cc] li:nth-child(odd){
+            background-color: springgreen;
+        }
+
+        /* 必须是n!   n每次加一，往后面计算 */
+        ol li:nth-child(n) {
+            background-color: pink;
         }
 
     </style>
@@ -28,7 +43,7 @@
 </head>
 <body>
 
-    <ul> 
+    <ul class="c"> 
         <li>我是第1个孩子</li> 
         <li>我是第2个孩子</li> 
         <li>我是第3个孩子</li> 
@@ -38,6 +53,30 @@
         <li>我是第7个孩子</li> 
         <li>我是第8个孩子</li> 
     </ul>
+
+    <ul class="cc"> 
+        <li>隔行变色</li> 
+        <li>隔行变色</li> 
+        <li>隔行变色</li> 
+        <li>隔行变色</li> 
+        <li>隔行变色</li> 
+        <li>隔行变色</li> 
+        <li>隔行变色</li> 
+        <li>隔行变色</li> 
+        <li>隔行变色</li> 
+        <li>隔行变色</li> 
+    </ul>
+
+    <ol> 
+        <li>我是第1个孩子</li> 
+        <li>我是第2个孩子</li> 
+        <li>我是第3个孩子</li> 
+        <li>我是第4个孩子</li> 
+        <li>我是第5个孩子</li> 
+        <li>我是第6个孩子</li> 
+        <li>我是第7个孩子</li> 
+        <li>我是第8个孩子</li> 
+    </ol>
     
 </body>
 </html>
