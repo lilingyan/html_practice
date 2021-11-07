@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin: 100px auto;
+            transition: all 0.6s; 
+            transform-origin: left top;
+        }
+
+        div:hover {
+            /* x y的倍数，只写一个，是两个都是同一个值的意思 */ 
+            /* 与直接设置长宽相比，不会影响其他盒子位置 */
+            transform: scale(2);
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div></div>
+    123
+    
+</body>
+</html>
