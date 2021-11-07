@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            transition: all 0.6s;
+        }
+        
+        div:hover {
+            /* 旋转会导致位置方向变化，所以需要先写位移，再写旋转 */
+            transform: translate(150px,50px) rotate(180deg) scale(1.5);
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div></div>
+    
+</body>
+</html>
