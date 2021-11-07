@@ -8,12 +8,18 @@
 
     <style>
 
+        body {
+            /* 透视写到被观察的父盒子上面 */
+            /* 距离就是人眼睛到屏幕的距离，越远越小，越近看的越大 */
+            perspective: 200px;
+        }
+
         div {
             width: 200px;
             height: 200px;
             background-color: pink;
             /* 沿着Z轴移动 */
-            transform: translate3d(100px,100px,100px);
+            transform: translate3d(400px,100px,100px);
         }
 
 
