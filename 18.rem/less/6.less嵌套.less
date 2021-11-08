@@ -1,0 +1,27 @@
+.header {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+
+    a {
+        color: red;
+        // 会被加空格，不是a的伪类选择器了，变成子选择器了
+        /* :hover {
+            color: blue;
+        } */
+        // 需要加&
+        &:hover {
+            color: blue;
+        }
+    }
+
+}
+
+.nav {
+    .log {
+        color: green;
+    }
+    &::before {
+        content: "1";
+    }
+}
