@@ -1,0 +1,21 @@
+@baseFont: 50px;
+html {
+    font-size: @baseFont;
+}
+@border: 5px + 5;
+div {
+    width: 200px - 50;
+    height: 200px * 2;
+    border: @border solid red;
+}
+img {
+    // 新版本需要在除前面加 . 或者 括起来 
+    // width: 82 ./ 50rem;
+    // height: 82 ./ 50rem;
+    width: (82rem/@baseFont);
+    height: (82rem/@baseFont);
+}
+
+/* 1.运算符左右最好有空格
+2.计算两边，只要有一边有单位就行。
+    如果两个数都有单位，则已前一个单位为准 */
